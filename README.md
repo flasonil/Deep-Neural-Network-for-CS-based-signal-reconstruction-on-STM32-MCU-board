@@ -1,1 +1,3 @@
-# Deep-Neural-Network-for-CS-based-signal-reconstruction-on-STM32-MCU-board
+<h1>Deep Neural Network for CS based signal reconstruction on STM32 MCU board</h1>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\mathcal{W}(A,f)&space;=&space;(T,\bar{f})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mathcal{W}(A,f)&space;=&space;(T,\bar{f})" title="\mathcal{W}(A,f) = (T,\bar{f})" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=$\mathrm{\xi&space;=&space;(\xi_{1},...,\xi_{n-1})}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$\mathrm{\xi&space;=&space;(\xi_{1},...,\xi_{n-1})}$" title="$\mathrm{\xi = (\xi_{1},...,\xi_{n-1})}$" /></a>
