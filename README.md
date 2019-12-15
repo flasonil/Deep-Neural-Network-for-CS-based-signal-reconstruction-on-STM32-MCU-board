@@ -28,7 +28,7 @@ matrix <a href="https://www.codecogs.com/eqnedit.php?latex==$A\in\mathbb{R^\math
 
 <p>More specifically, in this demo a serial communication has been established between the MCU and Python enironment. A master computer feeds y_test data to the MCU which in turn computes the output <a href="https://www.codecogs.com/eqnedit.php?latex=\hat{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat{s}" title="\hat{s}" /></a> from the neural network and sends back such data to the computer. Finally, RSNR and the reconstructed input <a href="https://www.codecogs.com/eqnedit.php?latex=\hat{x}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat{x}" title="\hat{x}" /></a> are computed by the Jupyter Notebook.</p>
 
-![Figure 1](Cattura.png "Figure 1")
+![Figure 1](Cattura.PNG "Figure 1")
     
     
 <h2>MCU Preparation</h2>
