@@ -1,4 +1,5 @@
-<h1>Lab of Statistical Signal Processing - Deep Neural Network for CS based signal reconstruction on STM32 MCU board</h1>
+<h1>Lab. of Statistical Signal Processing - Deep Neural Network for CS based signal reconstruction on STM32 MCU board</h1>
+<h2>University of Bologna - Master in Electronic Engineering</h2>
 
 <h2>Project Requirement</h2>
 <ul>
