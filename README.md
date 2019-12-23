@@ -35,7 +35,7 @@ matrix <a href="https://www.codecogs.com/eqnedit.php?latex==$A\in\mathbb{R^\math
 <p>After having installed STCube MX version 5.2 and AI extension version 4.1 on a virtual machine with Windows 7 (Neither "Validation on Desktop" nor "Validation on Target" tasks appear to work on Windows 10), I have followed these steps:
 <ol>
     <li>Click on "Access Board Selector", choose the appropriate device and click on "Start Project".</li>
-    <li>Enable UART peripheral: USART3 peripheral of NUCLEO-144 board is directly connected to the ST-LINK therefore just a USB cable wil be needed for both programming and communication. Select USART2 from "Connectivity" dropdown menu and select "Asynchronous".</li>
+    <li>Enable UART peripheral: USART3 peripheral of NUCLEO-144 board is directly connected to the ST-LINK therefore just a USB cable wil be needed for both programming and communication. Select USART3 from "Connectivity" dropdown menu and select "Asynchronous".</li>
     <li>Cick on "Additional Software" -> "STMicroelectronics.X_CUBE_AI" -> "Validation" (or "Application Template" to generate the code)</li>
     <li>Open Artificial Intelligence menu from the left-hand side, select the UART peripheral under "Platform Setting" previously enabled and click on "Add Network". Choose "Keras", "Saved Model" and upload the h5 format file containing the trained Neural Network.</li>
     <li>The model can be accurately examined with the options "Analyze", "Validate on Desktop", "Validate on target". Pay attention to select the correct COM port associated to the ST-LINK. This can be checked from "Control Panel" in Windows.</li>
@@ -97,5 +97,5 @@ The MCU is now ready to communicate with the computer. If the communication does
 
 <h2>Script Python</h2>
 <p>
-The following script essentially imports the dataset, establishes a serial connection with the MCU and computes support mismatch and Recontruction SNR with the $\hat{s}$ vectors provided by the microcontroller.
+The python script Serial.py essentially imports the dataset, establishes a serial connection with the MCU and computes support mismatch and Recontruction SNR with the <a href="https://www.codecogs.com/eqnedit.php?latex=\hat{s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat{s}" title="\hat{s}" /></a> vectors provided by the microcontroller.
 </p>
