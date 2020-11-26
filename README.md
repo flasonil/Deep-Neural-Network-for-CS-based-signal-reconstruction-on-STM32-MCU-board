@@ -14,7 +14,7 @@
 
 <h2>Compressed Sensing Basics</h2>
 <p>CS hinges on the assumption that
-x is <a href="https://www.codecogs.com/eqnedit.php?latex=$\kappa$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$\kappa$" title="$\kappa$" /></a>-sparse, i.e., in the simplest possible setting, that an
+x is <a href="https://www.codecogs.com/eqnedit.php?latex=\kappa" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\kappa" title="\kappa" /></a>-sparse, i.e., in the simplest possible setting, that an
 orthonormal matrix <a href="https://www.codecogs.com/eqnedit.php?latex=$S$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$S$" title="$S$" /></a> exists (whose columns are the vectors
 of the sparsity basis) such that when we express <a href="https://www.codecogs.com/eqnedit.php?latex=$x=S\xi$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$x=S\xi$" title="$x=S\xi$" /></a>, then
 the vector <a href="https://www.codecogs.com/eqnedit.php?latex=$\mathrm{\xi&space;=&space;(\xi_{1},...,\xi_{n-1})}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$\mathrm{\xi&space;=&space;(\xi_{1},...,\xi_{n-1})}$" title="$\mathrm{\xi = (\xi_{1},...,\xi_{n-1})}$" /></a> does not contain more than <a href="https://www.codecogs.com/eqnedit.php?latex=$\kappa&space;<&space;n$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$\kappa&space;<&space;n$" title="$\kappa < n$" /></a> non-zero entries.
